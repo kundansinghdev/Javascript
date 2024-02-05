@@ -21,3 +21,27 @@
 //        Arrays  =>  object
 //        Function  =>  function
 //        Object  =>  object
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+// Stack (Primitive) copy of value
+// let myname="kundansingh"
+// let othername=myname
+// othername="manav singh"
+// console.log(othername)
+
+// Heap (Non-Primitive) Reference of value
+
+let userOne={
+    email:"kundansingh@gmail.com",
+    useId:"index@ybl"
+};
+let userTwo=userOne;
+userTwo.email="manavsingh@gmail.com"
+console.log(userOne.email)
+console.log(userTwo.email);
+
