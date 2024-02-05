@@ -15,3 +15,13 @@ let isLoggedIn=1
 // 1=> true;0 => false;
 // ""=> false
 // "kundan" => true
+
+// operations
+
+let str1="hello"
+let str2=" kundan"
+str3= str1+str2
+console.log(str3);
+
+
+console.log(+true);
