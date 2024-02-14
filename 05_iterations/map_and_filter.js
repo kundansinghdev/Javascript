@@ -3,3 +3,6 @@ const Array=stroreArray.filter((num)=>{
    return num>6
 })
 console.log(Array);
+
+
+console.log("hello world");
